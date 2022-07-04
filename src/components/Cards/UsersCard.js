@@ -25,7 +25,7 @@ function UsersCard({ users, title }) {
                       </td>
                       <td className="user-name-role ">
                         <h1 className="text-lg text-white">{user.name}</h1>
-                        <div className="text-sm leading-5 text-gray-500">{user.name}</div>
+                        <div className="text-sm leading-5 text-gray-500">{user.role}</div>
                       </td>
                       <td className="option-btn">
                         <OptionIcon onClick={() => alert('Clicked ' + user.name)} width={20} />
