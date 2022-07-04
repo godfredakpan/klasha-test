@@ -10,6 +10,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Styled by [tailwindcss](https://tailwindcss.com) and [boostrap](https://getbootstrap.com/docs/5.2/getting-started/introduction)
 
+## Loom video to show interface
+https://www.loom.com/share/e2036209ef2b4c66ba45e8e548d03290
+
 ## Available Scripts
 
 In the project directory, you can run:
