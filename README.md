@@ -1,6 +1,14 @@
-# Getting Started with Create React App
+# Sport Time Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### A Klasha coding test: "Demonstrating dashboard of a sporting application, showcasing the methodology of the React framwork"
+
+#
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
+
+&& 
+
+Styled by [tailwindcss] (<https://tailwindcss.com>) and [boostrap] (<https://getbootstrap.com/docs/5.2/getting-started/introduction/>)
 
 ## Available Scripts
 

@@ -13,7 +13,7 @@ function UsersCard({ users, title }) {
             <p className="title">{'No Schedules yet'}</p>
           ) : (
             <>
-              <table className="min-w-full divide-gray-200">
+              <table className="min-w-full divide-gray-200" width={'100%'}>
                 <tbody className="divide-gray-200" style={{ lineHeight: '30px' }}>
                   {users.map((user) => (
                     <tr key={user.id}>
@@ -27,7 +27,7 @@ function UsersCard({ users, title }) {
                         <h1 className="text-lg text-white">{user.name}</h1>
                         <div className="text-sm leading-5 text-gray-500">{user.name}</div>
                       </td>
-                      <td className="user-name-role">
+                      <td className="option-btn">
                         <OptionIcon onClick={() => alert('Clicked ' + user.name)} width={20} />
                       </td>
                     </tr>

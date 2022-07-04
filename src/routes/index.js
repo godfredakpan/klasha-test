@@ -27,6 +27,22 @@ const routes = [
     path: '/blank',
     component: Blank,
   },
+  {
+    path: '/calender',
+    component: Blank,
+  },
+  {
+    path: '/users',
+    component: Blank,
+  },
+  {
+    path: '/message',
+    component: Blank,
+  },
+  {
+    path: '/settings',
+    component: Blank,
+  },
 ]
 
 export default routes

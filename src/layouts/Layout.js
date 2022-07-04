@@ -18,7 +18,7 @@ function Layout() {
   }, [location, closeSidebar])
 
   return (
-    <div style={{marginTop: '50px'}} className={`flex h-screen bg-gray-50 dark:bg-gray-900 bg-dark  ${isSidebarOpen && 'overflow-hidden'}`}
+    <div style={{ marginTop: '50px' }} className={`flex h-screen bg-gray-50 dark:bg-gray-900 bg-dark  ${isSidebarOpen && 'overflow-hidden'}`}
     >
       <Sidebar />
 

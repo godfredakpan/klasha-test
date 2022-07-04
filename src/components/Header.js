@@ -20,7 +20,7 @@ function Header() {
 
   return (
     <header className="z-40 py-4 bg-dark shadow-bottom dark:bg-gray-800">
-      <div style={{width: '90%'}} className="container flex items-center justify-between h-full px-6 mx-auto text-purple-600 dark:text-purple-300">
+      <div style={{ width: '90%' }} className="container flex items-center justify-between h-full px-6 mx-auto text-purple-600 dark:text-purple-300">
         {/* <!-- Mobile hamburger --> */}
         <button
           className="p-1 mr-5 -ml-1 rounded-md lg:hidden focus:outline-none focus:shadow-outline-purple"
@@ -30,19 +30,19 @@ function Header() {
           <MenuIcon className="w-6 h-6" aria-hidden="true" />
         </button>
         <ul className="flex items-right flex-shrink-5 space-x-6 header-components">
-        <span className='user-title'>Apiril 18, 2021</span>
+          <span className='user-title'>Apiril 18, 2021</span>
           {/* <!-- Search input --> */}
           <div className="flex justify-right flex-1 lg:mr-32">
-          <div className="relative max-w-xl mr-6 focus-within:text-purple-500">
-            <div className="absolute inset-y-0 flex items-right pl-2">
-              <SearchIcon className="w-6 h-6" aria-hidden="true" />
+            <div className="relative max-w-xl mr-6 focus-within:text-purple-500">
+              <div className="absolute inset-y-0 flex items-right pl-2">
+                <SearchIcon className="w-6 h-6" aria-hidden="true" />
+              </div>
+              <Input
+                className="search-bar"
+                placeholder=" Search"
+              />
             </div>
-            <Input
-              className="search-bar"
-              placeholder=" Search"
-            />
           </div>
-        </div>
         </ul>
 
         <ul className="flex items-center flex-shrink-0 space-x-6">
@@ -64,7 +64,7 @@ function Header() {
                 src="https://ucarecdn.com/691d736d-81aa-4ab8-92a8-0553c0b4bbae/ProfileImg.png"
                 alt=""
                 aria-hidden="true"
-                style={{width: '72px', height: '72px'}}
+                style={{ width: '72px', height: '72px' }}
 
               />
             </button>

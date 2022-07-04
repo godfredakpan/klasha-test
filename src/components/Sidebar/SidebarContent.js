@@ -3,7 +3,6 @@ import routes from '../../routes/sidebar'
 import { NavLink, Route } from 'react-router-dom'
 import * as Icons from '../../icons'
 import SidebarSubmenu from './SidebarSubmenu'
-import { Button } from '@windmill/react-ui'
 function Icon({ icon, ...props }) {
   const Icon = Icons[icon]
   return <Icon {...props} />
