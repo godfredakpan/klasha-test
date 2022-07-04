@@ -1,8 +1,9 @@
-import { render, screen } from '@testing-library/react';
-import App from './App';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+import routes from '../src/routes/';
+
+test('check all routes', () => {
+  expect(routes.length).toBe(7);
 });
+
+
+// simple test to check if routes are touched

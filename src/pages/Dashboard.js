@@ -1,6 +1,5 @@
 import React from 'react'
 import PageTitle from '../components/Typography/PageTitle'
-import { Card } from '@windmill/react-ui'
 import GreetingsCard from '../components/Cards/GreetingsCard'
 import ReminderCard from '../components/Cards/ReminderCard'
 import SportGirl from '../assets/img/sportGirl.svg';
