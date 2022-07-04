@@ -1,6 +1,8 @@
 
 /* Custom CSS */
-
+html{
+    background-color: #070414 !important;
+}
 .bg-dark {
     background-color: #070414 !important;
   }
