@@ -1,0 +1,253 @@
+
+/* Custom CSS */
+
+.bg-dark {
+    background-color: #070414 !important;
+  }
+  
+  .logo-text{
+    margin: 20px !important;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 120%;
+    margin-left: 50px !important;
+    color: #FFFFFF !important;
+  }
+  
+  .pageTile{
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 58px;
+    letter-spacing: 0px;
+    text-align: left;  
+  }
+  
+  .card-title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 120%;
+    color: #FFFFFF !important;
+  }
+
+  .schedule-header-title{
+    margin-left: 20px;
+  }
+  
+  .view-all {
+    float: right;
+    color: #008E8A;
+    font-size: 16px;
+    margin-right: 15px;
+    cursor: pointer;
+  }
+  .browse-more{
+    float: right;
+    color: #008E8A;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .user-title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 120%;
+    color: #FFFFFF !important;
+  }
+  
+  .user-role{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 120%;
+    color: gray !important;
+    text-align: right;
+  }
+  
+  .card-margin{
+    margin-bottom: 30px;
+  }
+  
+  .card-description{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px !important;
+    line-height: 140%;
+  }
+  
+  .bg-green-custom {
+    --bg-opacity: 1;
+    background-color: #008E8A;
+    height: 310px;
+    border-radius: 15px;
+  }
+  .bg-dark-custom {
+    --bg-opacity: 1;
+    background-color: #141518;
+    height: 310px;
+    border-radius: 15px;
+  }
+  
+  .bg-dark-card {
+    --bg-opacity: 1;
+    background-color: #141518 !important;
+    height: 310px;
+    border-radius: 15px;
+  }
+  
+  .reminder-card {
+    height: 310px;
+    line-height: 30px;
+    background-color: #141518;
+  }
+
+  
+  .greeting-image {
+    position: absolute;
+    top: -30px;
+    left: 170px;
+    width: 350px;
+    float: right !important;
+  }
+  
+  .btn-default{
+    background-color: #ffff;
+    color: #008E8A;
+    height: 45px;
+    width: 166px;
+    font-size: 18px;
+  }
+  
+  .btn-outline-default{
+    background-color: transparent !important;
+    color: #008E8A;
+    border: 1px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: #1e6868 !important;
+    height: 45px;
+    width: 166px;
+    font-size: 18px;
+  }
+  
+
+  .footer-btn{
+    top: 70px !important;
+  }
+  
+  .toggler{
+    margin-top: 10px;
+  }
+  
+  .training-time{
+    margin-left: 10px;
+  }
+  
+  /* calender */
+  .sdp {
+    background-color: #070414 !important;
+    --theme-color: #008E8A !important; 
+    --disabled-color: rgb(70, 80, 96) !important;
+    color: white !important;
+    --font: 'Poppins' !important;
+    --font-size: 12px !important;
+    font-family: 'Poppins';
+  }
+  
+  .sdp--square-btn {
+    background-color: #070414 !important;
+  }
+  
+  .sdp--date-btn__selected {
+    background-color: #038f86 !important;
+  }
+  
+  .dateScheduler{
+    width: 100% !important;
+  }
+   
+  .scheduler{
+    border: 1px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: #1e6868 !important;
+  }
+  
+  .schedule-card{
+    background-color: #151419 !important;
+    margin: 15px;
+    border-radius: 20px;
+  }
+  
+  .schedule-title{
+    padding: 5px;
+    color: white !important;
+    border-radius: 4px;
+  }
+  
+  /* user */
+  .user-name-role{
+    padding-left: 20px !important;
+  }
+  
+  /* search bar */
+  
+  .search-bar {
+    outline: 0  !important;
+    border-width: 0 0 3px  !important;
+    border-color: #008E8A !important;
+    font-size: 18px;
+    background: transparent !important;
+  }
+  
+  .search-bar, ::-webkit-input-placeholder {
+    padding-left: 30px !important;
+  }
+  
+  .header-components{
+    margin-left: 25rem !important;
+  }
+  
+  /* chart colors */
+  .bg-team-meetings {
+    --bg-opacity: 1;
+    background-color: #F03C80;
+  }
+  
+  .bg-medical-checks {
+    --bg-opacity: 1;
+    background-color: #505DD6;
+  }
+  
+  .bg-traning-sessions {
+    --bg-opacity: 1;
+    background-color: #FFC961;
+  }
+  /* sidebar icons */
+  .sidebar-icon-bg{
+    background-color: #292E39;
+    padding: 20px;
+    border-radius: 50px;
+    margin-left: 80px;
+  }
+  .toggle-sidebar-button{
+    float: right;
+    margin-top: 50px;
+  }
+  .outline-line {
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-width: 1.5px  !important;
+    border-left: 0px  !important;
+    border-color: #008E8A !important;
+    padding: 5px;
+  }

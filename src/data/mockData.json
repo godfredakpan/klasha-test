@@ -1,0 +1,50 @@
+{"data": {
+    "user": {
+        "name": "Eleanor",
+        "email": "eleanor@gmail.com",
+        "phone": "+234000000"
+    },
+    "greetings": "Welcome to your daily event calendar. Here you can see all the upcoming events, meeting and create new events.",
+    "schedules": [
+        { 
+            "id": 1,
+            "title": "Team Meetings",
+            "location": "BD & Treatment Centre",
+            "time": "4:15 pm - 6:00 pm",
+            "status": "completed"
+        },
+        { 
+            "id": 2,
+            "title": "Medical checks",
+            "location": "BD & Treatment Centre",
+            "time": "4:15 pm - 6:00 pm",
+            "status": "pending"
+        }
+    ],
+    "users": [
+        { 
+            "id": 1,
+            "avatar": "https://ucarecdn.com/0afaf029-7f85-4cf3-ac0b-91359c8b1662/albert.png",
+            "name": "Albert Fox",
+            "role": "Player"
+        },
+        { 
+            "id": 2,
+            "avatar": "https://ucarecdn.com/3ba26581-290a-46d1-9022-ec0ab889ce4f/jacob.png",
+            "name": "Jacob Gate",
+            "role": "Player"
+        },
+        { 
+            "id": 3,
+            "avatar": "https://ucarecdn.com/addde110-0789-4f8b-89d5-7a44eeed6f76/jane.png",
+            "name": "Jane Cooper",
+            "role": "Manager"
+        },
+        { 
+            "id": 4,
+            "avatar": "https://ucarecdn.com/501e1fc3-a9e7-4bfa-9474-a6e808a17257/martins.png",
+            "name": "Martins Black",
+            "role": "Coach"
+        }
+    ]
+}}
